@@ -1,0 +1,139 @@
+/* faz o reset na página HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* ========================== */
+/* Landing Page */
+body {
+  margin: 10px 100px;
+  position: relative;
+  max-width: auto;
+  max-height: fit-content;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+/* Header */
+.header-content {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 70px;
+  align-self: center;
+}
+
+.header-navigator {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigator a {
+  font-family: "Sarala";
+  font-style: normal;
+  font-size: 16px;
+
+  color: #fff2e7;
+}
+
+.header-navigator a:hover {
+  color: #2f2325;
+  transition: 0.3s;
+}
+/* ===== */
+hr {
+  width: auto;
+  color: #fff2e7;
+}
+/* Main */
+/* Main primary content */
+.main-primary-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.main-primary-content-text {
+  min-width: 300px;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main-title {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 64px;
+
+  color: #fff2e7;
+}
+
+.main-subtitle {
+  font-family: "Sarala";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+
+  color: #ecd6c4;
+}
+
+.main-button {
+  font-family: "Sarala";
+  font-weight: 400;
+  font-size: 24px;
+
+  width: 200px;
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  background-color: #ecd6c4;
+  color: #2f2325;
+}
+
+.main-button:hover {
+  background-color: #fff2e7;
+  transition: 0.2s;
+}
+
+.main-div-line {
+  width: 300px;
+  margin: auto;
+}
+/* ===== */
+/* Main secondary content */
+.main-secondary-content-title {
+  margin: 20px auto 50px;
+  font-family: "Righteous";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+
+  color: #fff2e7;
+}
+
+.main-secondary-content p {
+  font-family: "Sarala";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  margin-bottom: 30px;
+
+  color: #fff2e7;
+}
+
+/* ===== */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  margin-top: 30px;
+  width: 300px;
+}
